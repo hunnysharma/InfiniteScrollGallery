@@ -40,9 +40,9 @@ export const Heading = () => {
 
   return (
     <Header>
-      <H1>Unsplash</H1>
-      <p>The internet’s source of freely usable images.</p>
-      <p>Powered by creators everywhere.</p>
+      <H1>Infinite Scroll Gallery</H1>
+      <p>The Unsplash API Photos.</p>
+     
       {/* <form>
         <Input type="text" placeholder="Search photos" />
         <Button>Search</Button>

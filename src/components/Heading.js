@@ -42,7 +42,7 @@ export const Heading = () => {
     <Header>
       <H1>Infinite Scroll Gallery</H1>
       <p>The Unsplash API Photos.</p>
-      <p>Designed by Abishek Goyal NAMAK WALO KI HAWELI.</p>
+      
      
       {/* <form>
         <Input type="text" placeholder="Search photos" />

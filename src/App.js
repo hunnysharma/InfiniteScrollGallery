@@ -38,7 +38,7 @@ function App() {
     fetchImages();
   }, [])
 
-  const fetchImages = (count = 10) => {
+  const fetchImages = (count = 20) => {
     const apiRoot = "https://api.unsplash.com";
     const accessKey = process.env.REACT_APP_ACCESSKEY;
 
@@ -62,7 +62,7 @@ function App() {
       >
         <WrapperImages>
           {images.map(image => (
-            <UnsplashImage url={image.urls.thumb} key={image.id} />
+            <UnsplashImage url={image.urls.regular} key={image.id} />
           ))}
         </WrapperImages>
       </InfiniteScroll>
